@@ -1,0 +1,27 @@
+.GuestList{
+    display: block;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    h3{
+        font-size: 2em;
+        border-bottom: 2px solid rgba(21, 7, 83, 0.623);
+        padding: 0;
+        margin: 3px;
+    }
+    input{
+        padding: 15px;
+        border: 1px solid #efefef;
+        border-radius: 2px;
+        &::placeholder{
+            color: #cecccc;
+        }
+    }
+    &_btns{
+        padding: 15px;
+        border: none;
+        border-radius: 0 4px 4px 0;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
